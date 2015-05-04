@@ -1,0 +1,20 @@
+echo "# git" >> README.md
+
+# Creating a new repostiory
+git init
+
+# Adding the created file
+git add README.md
+
+# Commiting to the git repository
+git commit -m "first commit"
+
+# Adding it to the remote repository
+git remote add origin https://github.com/ramesharpu/git.git
+
+# Pushing it to the master/other branch
+# master branch
+git push -u origin master
+
+# other branch
+git push -u origin other-branch-name
